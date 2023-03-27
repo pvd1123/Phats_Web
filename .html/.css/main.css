@@ -23,7 +23,7 @@ body{
 }
 
 .btn:not(.nav-btns button):hover{
-    background-color: var(--red);
+    background-color: rgb(113, 188, 195);
     color: #fff;
     border-color: var(--red);
 
