@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    
+</head>
+<body>
+        <input type="name" id="gia" value="3">
+        <input type="text" id="soluong" value="4">
+        <div><strong id = "total">0</strong></div>
+        <script>
+        // function tinhTong(a,b)
+        // {
+        //     document.write('tong la:' + (a+b));
+        // }
+        // let x = prompt('Nhap x:');
+        // let y = prompt('Nhap y');
+        // x = parseInt(x)
+        // y = parseInt(y)
+        // tinhTong(x,y)
+        //tinhTien(gia,soluong)
+        let gia = document.getElementById('gia').value;
+        let soluong = document.getElementById('soluong').value;
+
+        let total = parseInt(gia)*parseInt(soluong)
+        //thay the noi dung ben trong 1 the html bang 1 noi dung moi
+        document.getElementById('total').innerHTML = total;
+
+        console.log(total)
+    </script>
+</body>
+</html>

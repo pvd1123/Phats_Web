@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Store</title>
+    <!-- font awesome -->
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href=".css/main.css">
+
+</head>
+<body>
+    <!-- Thanh navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/arsenal-crest-logo.svg" style="width: 80px; height: 120px;" alt="site-icon">
+                <span class="text-uppercase fw-lighter ms-2"></span>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+            </div>
+
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#away">away</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#third">third</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#signaturecollection">signatur collection</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#limitted">limitted</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2 border-0">
+                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Kết thúc thanh navbar -->
+
+    <!-- Phần header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 120px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active ">
+                <h2 class="text-capitalize text-white">signature collection</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-black">new form</h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">limitted</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-black">new form</h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </header>
+
+    <!-- Kết thúc header -->
+
+    <!-- collection -->
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New SeaSon</h2>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-wrap justify-content-center mt-5">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn">All</button>
+                    <button type="button" class="btn m-2 text-dark">Best Player</button>
+                    <button type="button" class="btn m-2 text-dark">Player of The Week</button>
+                    <button type="button" class="btn m-2 text-dark">Super Star</button>
+                    <button type="button" class="btn m-2 text-dark">Best Manager</button>
+                </div>
+
+                <div class="collection-list mt-4">
+                    <div class="">
+                        <div class="collection-img">
+                            <img src="https://i1.adis.ws/i/ArsenalDirect/n05086_f?$220x210$&.jpg?fmt=webp" 
+                                 alt="" class="">
+                            <span class="position-absolute bg-primary text-white
+                                        d-flex align-items-center justify-content-center">SALE</span>
+                        </div>
+                        <div class="">
+                            <span class="">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="">GRANIT XHAKA</p>
+                            <span class="">$500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Kết thúc collection -->
+
+
+    <!-- jquery -->
+    <script src=".js/jquery-3.6.4.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src=".js/script.js"></script>
+</body>
+</html>
