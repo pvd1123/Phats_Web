@@ -109,7 +109,7 @@ body{
     border-radius: 50%;
 }
 
-/* medi queries */
+/* media queries */
 @media(min-width: 992px){
     .nav-item{
         border-bottom: none;
