@@ -162,6 +162,31 @@ body{
     text-decoration: none;
 }
 
+/* newsletter */
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+
+#newsletter .form-group{
+    padding-left: 200px;
+}
+
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#newsletter .btn{
+    background-color: var(--red);
+    color: #fff;
+    border-color: var(--red);
+}
+
+#newsletter .btn:hover{
+    background-color: #000;
+    border-color: #000;
+}
+
 /* media queries */
 @media(min-width: 992px){
     .nav-item{
