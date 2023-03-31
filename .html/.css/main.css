@@ -168,9 +168,12 @@ body{
 }
 
 #newsletter .form-group{
-    padding-left: 200px;
+    display: flex;
+    align-items: center;
 }
-
+#newsletter .form-control{
+    width: 300px;
+}
 
 #newsletter .box-border{
     border-radius: 25px;
